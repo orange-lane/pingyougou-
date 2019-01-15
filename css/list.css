@@ -1,0 +1,143 @@
+.header_nav {
+	position: relative;
+}
+.sk {
+	width: 74px;
+	height: 34px;
+	position: absolute;
+	margin: auto 0;
+	left: 182px;
+	top: 6px;
+	padding-left: 5px; 
+	border-left: 2px solid #ccc;
+}
+.sk_list {
+	float: left;
+	height: 42px;
+	line-height: 42px;
+	width: 306px;
+	
+}
+.sk_list li {
+	float: left;
+	margin: 0 15px;
+}
+.sk_list li a {
+	font-weight: 700;
+	color: #666;
+	font-size: 16px;
+}
+.sk_con {
+	float: right;
+	width: 754px;
+	height: 42px;
+	line-height: 42px;
+}
+.sk_con li {
+	float: left;
+	margin: 0 15px;
+}
+.sk_con li a {
+	font-size: 14px;
+	color: #666;
+	font-family: 'icomoon';
+}
+.sk_hd {
+	height: 118px;
+	margin-bottom: 20px;
+}
+.sk_bd ul {
+	width: 1212px;
+}
+.sk_bd li {
+	float: left;
+}
+.sk_goods {
+	width: 288px;
+	height: 457px;
+	border:1px solid #ccc;
+}
+.sk_goods:hover {
+	border:1px solid #e12228;
+}
+.sk_goods_title {
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	margin: 10px;
+}
+.sk_goods_price em {
+	margin-left: 10px;
+	font-style: normal;
+}
+.sk_goods_price_l {
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_progress span {
+	font-size: 14px;
+	color: #c1c1c1;
+	margin: 0 6px;
+}
+.sk_goods_progress_in {
+	display: inline-block;
+	width: 134px;
+	height: 10px;
+	border: 1px solid #ed282e;
+	border-radius: 5px;
+}
+.sk_goods_progress_in div {
+	height: 10px;
+	width: 83%;
+	background-color: #ed282e;
+}
+.sk_goods_buy {
+	width: 288px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #b1191a;
+	margin-top: 5px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.page {
+
+	margin: 20px 330px;
+}
+.page_num {
+	height: 40px;
+	line-height: 40px;
+}
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	border:1px solid #ccc;
+}
+.page_num .page_num_shang,
+.page_num .page_num_xia {
+	width: 80px;
+	height: 40px;
+}
+.page_skip {
+	margin-left: 10px;
+}
+.page_skip input {
+	width: 40px;
+	height: 40px;
+	border:none;
+	border: 1px solid #ccc;
+	transition: width .5;
+}
+.page_skip input:focus{
+	width: 80px;
+}
+.page_skip button {
+	width: 40px;
+	height: 40px;
+}
+.page_num .page_num_no  {
+	border: none;
+}
